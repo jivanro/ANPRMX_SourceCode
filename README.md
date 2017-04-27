@@ -1,3 +1,5 @@
+## Project Files
+If you want to download a test executable or the Release Dll, go to [https://github.com/jivanro/ANPRMX_ExecutableFiles](https://github.com/jivanro/ANPRMX_ExecutableFiles)
 ## Project Description
 ANPR MX is a simple Automatic Plate Recognition DLL for ordinary North American type plates. (It won't identify "European" type ones.)
 
