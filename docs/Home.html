@@ -1,0 +1,40 @@
+<div class="wikidoc">
+<p><strong>Project Description</strong><br>
+ANPR MX is a simple Automatic Plate Recognition DLL for ordinary North American type plates. (It won't identify &quot;European&quot; type ones.)<br>
+<br>
+It uses OpenCV for image processing and is capable of analyzing images with a maximum resolution of 800x600 or lower. ( *.jpg / *.png) file formats allowed.<br>
+<br>
+The code is partially based on the JavaANPR project, which is owned by Ondrej Martinsky.<br>
+(See: http://javaanpr.sourceforge.net for details.)<br>
+<br>
+However, the following things were modified:</p>
+<ul>
+<li>Code entirely written in C# using VS 2010 and the .NET Framework 4.0 </li><li>Uses OpenCV instead of the java.awt libraries. </li><li>Replaces the plate band finding algorithm with a different approach based on OpenCV Blobs.
+</li><li>Recognizes the North American average plate size only. <span style="text-decoration:underline">
+It won't work for the European type plates.</span> </li></ul>
+<p><br>
+The library is simple and ready to be used on commercial or open source projects as it is licensed under the new BSD format.<br>
+<br>
+To make it easy for anyone to understand how the DLL works, I also provided an executable that shows its capabilities.<br>
+You can also download a series of random car photos to test it. (See the &quot;Downloads&quot; section.)<br>
+<br>
+<strong>IMPORTANT</strong><br>
+Please make sure you agree with the following licenses before you proceed to use this software:</p>
+<ul>
+<li>BSD (for OpenCV and ANPR MX) </li><li>LGPL 3 (for linking to OpenCVSharp) </li></ul>
+<p><br>
+In case of doubts or comments, please feel free to contact me at jivanro@hotmail.com</p>
+<p><strong>Donate</strong></p>
+<p>ANPRMX is a free open source project that is developed in personal time. <br>
+<span style="font-size:10pt">If you find it useful and want to show your support,
+<span style="color:#0000ff"><strong>ANY</strong></span> amount donated is deeply appreciated.</span></p>
+<p><br>
+<span style="color:#0000ff"><a title="PayPal Donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YTJHTYGGVNPMQ" target="_self" style="font-size:10pt"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="PayPal - The safer, easier way to pay online!" border="0">PayPal
+ Donate</a></span></p>
+<p>&nbsp;</p>
+<p><br>
+<strong>Executable example</strong><br>
+<br>
+<img title="Example_Screenshot.jpg" src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=anprmx&DownloadId=484768" alt="Example_Screenshot.jpg"><br>
+</p>
+</div><div class="ClearBoth"></div>
